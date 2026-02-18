@@ -22,7 +22,7 @@
   Secure login and registration (JWT-based authentication)
   Role-based access (student or instructor)
 
-Techk Stack:
+Tech Stack:
   Frontend:React.js
   Backend:Node.js,Express
   Database:MongoDB
