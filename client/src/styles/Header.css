@@ -1,0 +1,40 @@
+/* === FILE: client/src/styles/Header.css === */
+
+.app-header,
+.navbar {
+  background-color: #388e3c;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header .logo a,
+.navbar a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background-color: white;
+  color: #388e3c;
+  padding: 6px 12px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d4edda;
+}

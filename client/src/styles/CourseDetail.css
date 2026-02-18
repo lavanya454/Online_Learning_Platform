@@ -1,0 +1,149 @@
+.course-details-container {
+    padding: 20px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+  }
+  
+  .course-details-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .course-details-container ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .course-details-container li {
+    margin-bottom: 8px;
+  }
+  
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  .comments-section .comment {
+    background: #eef;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+  .live-session, .live-session-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dashed #aaa;
+    background-color: #f9f9f9;
+  }
+  
+  .live-session-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 6px;
+    width: 100%;
+  }
+  
+  .live-session-form button {
+    margin-top: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .live-session-form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .live-session-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .live-session-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .live-session-form button:hover {
+    background-color: #0056b3;
+  }
+  .live-sessions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+  }
+  
+  .live-session-card {
+    border: 2px solid #007bff;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #f1f9ff;
+  }
+  
+  .join-button {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .join-button:hover {
+    background-color: #218838;
+  }
+  /* Fix course-card to allow full content */
+.course-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: visible;
+  height: auto;             /* ✅ allow full expansion */
+  max-height: none;
+}
+
+/* Live session list inside student dashboard */
+.dashboard-live-sessions {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e6f0ff;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+}
+
+.dashboard-live-sessions li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dashboard-live-sessions a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard-live-sessions a:hover {
+  text-decoration: underline;
+}
+
+  
+  
+  
+  
